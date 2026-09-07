@@ -1,1 +1,1 @@
-basicamente e um repositorio de uns exericicios em java eu faco para a logica nao ficar enferrujada
+basicamente e um repositorio de uns exericicios em java que eu faco para a logica nao ficar enferrujada
