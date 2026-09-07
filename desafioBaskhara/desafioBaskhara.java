@@ -18,6 +18,11 @@ public class desafioBaskhara {
         double delta = (b * b) - 4 * (a * c);
         double baskharaPositivo = (-b + Math.sqrt(delta)) / (2 * a);
         double baskharaNegativo = (-b - Math.sqrt(delta)) / (2 * a);
+
+        //to com preguica de pegar input
+        if(a<=0||b<=0||c<=0){
+            System.out.println("Impossivel calcular");
+        }
         System.out.printf("R1 = %.5f\n", baskharaPositivo);
         System.out.printf("R2 = %.5f", baskharaNegativo);
     }
